@@ -1,6 +1,8 @@
 Stack Breakout Brick
 ====================
 
+**This Bricklet is currently in development**
+
 This repository contains the hardware design files for the Stack Breakout Brick.
 
 You can add it to a stack for debugging purposes. it makes all stack pins inside of a stack available.
