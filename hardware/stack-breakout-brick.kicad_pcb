@@ -5,7 +5,7 @@
     (no_connects 44)
     (area 119.424999 80.724999 159.575001 120.875001)
     (thickness 1.6)
-    (drawings 23)
+    (drawings 24)
     (tracks 511)
     (zones 0)
     (modules 14)
@@ -6330,6 +6330,9 @@
       (clearance 0.65024))
   )
 
+  (gr_text "Stack Breakout\nBrick 1.0" (at 153.9 112.9) (layer F.SilkS)
+    (effects (font (size 0.8 0.8) (thickness 0.15)))
+  )
   (gr_text PGND (at 147.1 94 270) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.2)))
   )
