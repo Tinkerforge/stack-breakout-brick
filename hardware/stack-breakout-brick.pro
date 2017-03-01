@@ -1,6 +1,6 @@
-update=Fr 20 Jan 2012 10:40:51 CET
+update=Mi 01 Mär 2017 16:55:59 CET
 version=1
-last_client=pcbnew
+last_client=kicad
 [general]
 version=1
 [cvpcb]
@@ -103,3 +103,13 @@ LibName10=dip_sockets
 LibName11=standard
 LibName12=Logo
 LibName13=tinkerforge
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=Pcbnew
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
