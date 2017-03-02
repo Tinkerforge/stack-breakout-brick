@@ -35,7 +35,7 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title "Stack Breakout Bricklet"
+Title "Stack Breakout Brick"
 Date "2017-03-01"
 Rev "1.0"
 Comp "Tinkerforge GmbH"
@@ -168,23 +168,23 @@ $EndComp
 $Comp
 L CON-SERVO J6
 U 1 1 58B58D4B
-P 1000 4650
-F 0 "J6" H 1000 5750 60  0000 C CNN
-F 1 "CON-SERVO" H 1000 3150 60  0000 C CNN
-F 2 "CON-Servo" H 1000 4650 60  0000 C CNN
-F 3 "" H 1000 4650 60  0000 C CNN
-	1    1000 4650
+P 1000 4850
+F 0 "J6" H 1000 5950 60  0000 C CNN
+F 1 "CON-SERVO" H 1000 3350 60  0000 C CNN
+F 2 "CON-Servo" H 1000 4850 60  0000 C CNN
+F 3 "" H 1000 4850 60  0000 C CNN
+	1    1000 4850
 	-1   0    0    -1  
 $EndComp
 $Comp
 L CON-SERVO J5
 U 1 1 58B58F99
-P 1000 1900
-F 0 "J5" H 1000 3000 60  0000 C CNN
-F 1 "CON-SERVO" H 1000 400 60  0000 C CNN
-F 2 "CON-Servo" H 1000 1900 60  0000 C CNN
-F 3 "" H 1000 1900 60  0000 C CNN
-	1    1000 1900
+P 1000 2100
+F 0 "J5" H 1000 3200 60  0000 C CNN
+F 1 "CON-SERVO" H 1000 600 60  0000 C CNN
+F 2 "CON-Servo" H 1000 2100 60  0000 C CNN
+F 3 "" H 1000 2100 60  0000 C CNN
+	1    1000 2100
 	-1   0    0    -1  
 $EndComp
 Text GLabel 3050 1150 0    43   Output ~ 0
@@ -272,79 +272,79 @@ Text GLabel 10550 3150 0    43   Output ~ 0
 5V
 Text GLabel 10550 3250 0    43   Output ~ 0
 STACK-PVCC
-Text GLabel 1250 950  2    43   Output ~ 0
-EX-SER2-RTS
-Text GLabel 1250 1300 2    43   Output ~ 0
-EX-SER2-TXD
-Text GLabel 1250 1650 2    43   Output ~ 0
-EX-SER2-RXD
-Text GLabel 1250 1050 2    43   Output ~ 0
-EX-SEL-01
-Text GLabel 1250 1400 2    43   Output ~ 0
-EX-SEL-00
-Text GLabel 1250 1500 2    43   Output ~ 0
-SEL-07
 Text GLabel 1250 1150 2    43   Output ~ 0
-SEL-06
-Text GLabel 1250 1750 2    43   Output ~ 0
-SEL-05
+EX-SER2-RTS
+Text GLabel 1250 1500 2    43   Output ~ 0
+EX-SER2-TXD
 Text GLabel 1250 1850 2    43   Output ~ 0
+EX-SER2-RXD
+Text GLabel 1250 1250 2    43   Output ~ 0
+EX-SEL-01
+Text GLabel 1250 1600 2    43   Output ~ 0
+EX-SEL-00
+Text GLabel 1250 1700 2    43   Output ~ 0
+SEL-07
+Text GLabel 1250 1350 2    43   Output ~ 0
+SEL-06
+Text GLabel 1250 1950 2    43   Output ~ 0
+SEL-05
+Text GLabel 1250 2050 2    43   Output ~ 0
 SEL-04
-Text GLabel 1250 2000 2    43   Output ~ 0
-EX-1-GP02
-Text GLabel 1250 2100 2    43   Output ~ 0
-EX-1-GP01
 Text GLabel 1250 2200 2    43   Output ~ 0
+EX-1-GP02
+Text GLabel 1250 2300 2    43   Output ~ 0
+EX-1-GP01
+Text GLabel 1250 2400 2    43   Output ~ 0
 EX-1-GP00
-Text GLabel 1250 2350 2    43   Output ~ 0
-EX-0-GP02
-Text GLabel 1250 2450 2    43   Output ~ 0
-EX-0-GP01
 Text GLabel 1250 2550 2    43   Output ~ 0
+EX-0-GP02
+Text GLabel 1250 2650 2    43   Output ~ 0
+EX-0-GP01
+Text GLabel 1250 2750 2    43   Output ~ 0
 EX-0-GP00
-Text GLabel 1250 2700 2    43   Output ~ 0
-EX-SPI-SCLK
-Text GLabel 1250 2800 2    43   Output ~ 0
-EX-SPI-MOSI
 Text GLabel 1250 2900 2    43   Output ~ 0
+EX-SPI-SCLK
+Text GLabel 1250 3000 2    43   Output ~ 0
+EX-SPI-MOSI
+Text GLabel 1250 3100 2    43   Output ~ 0
 EX-SPI-MISO
-Text GLabel 1250 3050 2    43   Output ~ 0
-SYNC/GP/TCK
-Text GLabel 1250 3150 2    43   Output ~ 0
-DETECT/TMS
 Text GLabel 1250 3250 2    43   Output ~ 0
+SYNC/GP/TCK
+Text GLabel 1250 3350 2    43   Output ~ 0
+DETECT/TMS
+Text GLabel 1250 3450 2    43   Output ~ 0
 RESET
-Text GLabel 1250 5300 2    43   Output ~ 0
+Text GLabel 1250 5500 2    43   Output ~ 0
 SPI-SCLK
-Text GLabel 1250 5200 2    43   Output ~ 0
+Text GLabel 1250 5400 2    43   Output ~ 0
 SPI-MOSI
-Text GLabel 1250 5100 2    43   Output ~ 0
+Text GLabel 1250 5300 2    43   Output ~ 0
 SPI-MISO
-Text GLabel 1250 5800 2    43   Output ~ 0
-I2C-SDA
-Text GLabel 1250 5900 2    43   Output ~ 0
-I2C-SCL
 Text GLabel 1250 6000 2    43   Output ~ 0
+I2C-SDA
+Text GLabel 1250 6100 2    43   Output ~ 0
+I2C-SCL
+Text GLabel 1250 6200 2    43   Output ~ 0
 SEL-00
-Text GLabel 1250 5450 2    43   Output ~ 0
-SEL-01
-Text GLabel 1250 5550 2    43   Output ~ 0
-SEL-02
 Text GLabel 1250 5650 2    43   Output ~ 0
+SEL-01
+Text GLabel 1250 5750 2    43   Output ~ 0
+SEL-02
+Text GLabel 1250 5850 2    43   Output ~ 0
 SEL-03
-Text GLabel 1400 3800 2    43   Output ~ 0
+Text GLabel 1400 4000 2    43   Output ~ 0
 STACK-PGND
-Text GLabel 1250 4750 2    43   Output ~ 0
-CURRENT
-Text GLabel 1400 4150 2    43   Output ~ 0
-GND
-Text GLabel 1250 4850 2    43   Output ~ 0
-VOLTAGE
 Text GLabel 1250 4950 2    43   Output ~ 0
+CURRENT
+Text GLabel 1400 4350 2    43   Output ~ 0
+GND
+Text GLabel 1250 5050 2    43   Output ~ 0
+VOLTAGE
+Text GLabel 1250 5150 2    43   Output ~ 0
 3V3
-Text GLabel 1400 4600 2    43   Output ~ 0
+Text GLabel 1400 4800 2    43   Output ~ 0
 5V
-Text GLabel 1400 4450 2    43   Output ~ 0
+Text GLabel 1400 4650 2    43   Output ~ 0
 STACK-PVCC
 Wire Wire Line
 	3050 2550 3900 2550
@@ -795,92 +795,92 @@ Wire Wire Line
 	10550 3250 10850 3250
 Connection ~ 10850 3250
 Wire Wire Line
-	1200 950  1250 950 
-Wire Wire Line
-	1250 1300 1200 1300
-Wire Wire Line
-	1200 1650 1250 1650
-Wire Wire Line
-	1250 2000 1200 2000
-Wire Wire Line
-	1200 2350 1250 2350
-Wire Wire Line
-	1250 2700 1200 2700
-Wire Wire Line
-	1250 3050 1200 3050
-Wire Wire Line
-	1200 1050 1250 1050
-Wire Wire Line
 	1200 1150 1250 1150
 Wire Wire Line
-	1200 1400 1250 1400
-Wire Wire Line
-	1200 1500 1250 1500
-Wire Wire Line
-	1200 1750 1250 1750
+	1250 1500 1200 1500
 Wire Wire Line
 	1200 1850 1250 1850
 Wire Wire Line
-	1200 2100 1250 2100
-Wire Wire Line
-	1200 2200 1250 2200
-Wire Wire Line
-	1200 2450 1250 2450
+	1250 2200 1200 2200
 Wire Wire Line
 	1200 2550 1250 2550
 Wire Wire Line
-	1200 2800 1250 2800
+	1250 2900 1200 2900
 Wire Wire Line
-	1200 2900 1250 2900
+	1250 3250 1200 3250
 Wire Wire Line
-	1200 3150 1250 3150
+	1200 1250 1250 1250
 Wire Wire Line
-	1200 3250 1250 3250
+	1200 1350 1250 1350
 Wire Wire Line
-	1200 3700 1300 3700
+	1200 1600 1250 1600
 Wire Wire Line
-	1200 3800 1400 3800
+	1200 1700 1250 1700
 Wire Wire Line
-	1300 3900 1200 3900
+	1200 1950 1250 1950
 Wire Wire Line
-	1200 4050 1300 4050
+	1200 2050 1250 2050
 Wire Wire Line
-	1200 4150 1400 4150
+	1200 2300 1250 2300
+Wire Wire Line
+	1200 2400 1250 2400
+Wire Wire Line
+	1200 2650 1250 2650
+Wire Wire Line
+	1200 2750 1250 2750
+Wire Wire Line
+	1200 3000 1250 3000
+Wire Wire Line
+	1200 3100 1250 3100
+Wire Wire Line
+	1200 3350 1250 3350
+Wire Wire Line
+	1200 3450 1250 3450
+Wire Wire Line
+	1200 3900 1300 3900
+Wire Wire Line
+	1200 4000 1400 4000
+Wire Wire Line
+	1300 4100 1200 4100
 Wire Wire Line
 	1200 4250 1300 4250
 Wire Wire Line
-	1200 4400 1300 4400
+	1200 4350 1400 4350
 Wire Wire Line
-	1300 4500 1200 4500
+	1200 4450 1300 4450
 Wire Wire Line
-	1200 4600 1400 4600
+	1200 4600 1300 4600
 Wire Wire Line
-	1200 4750 1250 4750
+	1300 4700 1200 4700
 Wire Wire Line
-	1200 4850 1250 4850
+	1200 4800 1400 4800
 Wire Wire Line
 	1200 4950 1250 4950
 Wire Wire Line
-	1200 5100 1250 5100
+	1200 5050 1250 5050
 Wire Wire Line
-	1200 5200 1250 5200
+	1200 5150 1250 5150
 Wire Wire Line
 	1200 5300 1250 5300
 Wire Wire Line
-	1200 5450 1250 5450
+	1200 5400 1250 5400
 Wire Wire Line
-	1200 5550 1250 5550
+	1200 5500 1250 5500
 Wire Wire Line
 	1200 5650 1250 5650
 Wire Wire Line
-	1200 5800 1250 5800
+	1200 5750 1250 5750
 Wire Wire Line
-	1200 5900 1250 5900
+	1200 5850 1250 5850
 Wire Wire Line
 	1200 6000 1250 6000
 Wire Wire Line
-	1300 3700 1300 3900
-Connection ~ 1300 3800
+	1200 6100 1250 6100
+Wire Wire Line
+	1200 6200 1250 6200
+Wire Wire Line
+	1300 3900 1300 4100
+Connection ~ 1300 4000
 $Comp
 L STACK-DOWN-1 J2
 U 1 1 58B548D4
@@ -893,11 +893,11 @@ F 3 "" H 5100 4400 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1300 4250 1300 4050
-Connection ~ 1300 4150
+	1300 4450 1300 4250
+Connection ~ 1300 4350
 Wire Wire Line
-	1300 4400 1300 4500
+	1300 4600 1300 4700
 Wire Wire Line
-	1300 4450 1400 4450
-Connection ~ 1300 4450
+	1300 4650 1400 4650
+Connection ~ 1300 4650
 $EndSCHEMATC
