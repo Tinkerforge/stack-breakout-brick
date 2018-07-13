@@ -1,17 +1,15 @@
 Stack Breakout Brick
 ====================
 
-**This Bricklet is currently in development**
+**This Brick is currently in development.**
 
-This repository contains the hardware design files for the Stack Breakout Brick.
-
-You can add it to a stack for debugging purposes. it makes all stack pins inside of a stack available.
+This repository contains the hardware design files.
 
 Repository Content
 ------------------
 
 hardware/:
- * Contains kicad project files and additionally schematics as pdf
+ * Contains KiCad project files and additionally schematics as PDF
 
 Hardware
 --------
@@ -23,5 +21,5 @@ you have to install the Tinkerforge kicad-libraries
 them directly in hardware/ or clone them in a separate folder and
 symlink them into hardware/
 (ln -s kicad_path/kicad-libraries project_path/hardware). After that you
-can open the .pro file in hardware/ with kicad and from there view and
+can open the .pro file in hardware/ with KiCad and from there view and
 modify the schematics and the PCB layout.
